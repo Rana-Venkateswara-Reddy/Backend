@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/items")
-@CrossOrigin(origins = "https://moonlit-biscuit-d87fa9.netlify.app/")
+@CrossOrigin(origins = "*")
 public class ItemController {
 
 
